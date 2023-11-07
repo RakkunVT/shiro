@@ -1,0 +1,45 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": [
+			"node_modules",
+			"dist",
+			"./.github/workflows",
+			"./pnpm-lock.yaml"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"style": {
+				"noParameterAssign": "off"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "off"
+			},
+			"nursery": {
+				"useGroupedTypeImport": "error"
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": true,
+		"indentSize": 4,
+		"indentStyle": "tab"
+	},
+	"javascript": {
+		"formatter": {
+			"trailingComma": "none",
+			"semicolons": "always",
+			"quoteStyle": "single"
+		},
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	}
+}
