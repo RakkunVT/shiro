@@ -32,12 +32,14 @@ jobs:
           ref: ${{ github.event.inputs.ref || 'main' }}
       - name: Add TypeScript problem matcher
         run: echo "::add-matcher::.github/problemMatchers/tsc.json"
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Use Node.js v20
         uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3
         with:
           node-version: 20
           cache: 'pnpm'
-          registry-url: https://registry.npmjs.org/
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile --prefer-frozen-lockfile
       - name: Bump Version & Publish
