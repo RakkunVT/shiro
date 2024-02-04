@@ -29,11 +29,11 @@
 		"@favware/cliff-jumper": "^2.2.3",
 		"@favware/npm-deprecate": "^1.0.7",
 		"@sapphire/ts-config": "^5.0.0",
-		"@types/node": "^20.11.8",
+		"@types/node": "^20.11.16",
 		"biome": "^0.3.3",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^8.0.3",
-		"lint-staged": "^15.2.0",
+		"lint-staged": "^15.2.1",
 		"tsup": "^7.3.0"
 	},
 	"repository": {
