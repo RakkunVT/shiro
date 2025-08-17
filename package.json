@@ -25,15 +25,15 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@commitlint/cli": "^18.6.1",
-		"@commitlint/config-conventional": "^18.6.2",
+		"@commitlint/config-conventional": "^18.6.3",
 		"@favware/cliff-jumper": "^2.2.3",
 		"@favware/npm-deprecate": "^1.0.7",
-		"@sapphire/ts-config": "^5.0.0",
-		"@types/node": "^20.11.24",
+		"@sapphire/ts-config": "^5.0.1",
+		"@types/node": "^20.19.11",
 		"biome": "^0.3.3",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^8.0.3",
-		"lint-staged": "^15.2.2",
+		"lint-staged": "^15.5.2",
 		"tsup": "^7.3.0"
 	},
 	"repository": {
