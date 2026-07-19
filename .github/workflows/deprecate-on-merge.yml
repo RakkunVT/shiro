@@ -16,7 +16,7 @@ jobs:
         with:
           version: 8
       - name: Use Node.js v20
-        uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: 20
           cache: 'pnpm'
