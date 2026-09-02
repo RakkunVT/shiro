@@ -34,7 +34,7 @@
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.5.2",
-		"tsup": "^7.3.0"
+		"tsup": "^8.5.1"
 	},
 	"repository": {
 		"type": "git",
